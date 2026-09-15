@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" pages="5">
+<mxfile host="app.diagrams.net" pages="6">
   <diagram name="第 1 页" id="1V3CJVLXolz5Se5KDLiE">
     <mxGraphModel dx="1875" dy="1048" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -575,6 +575,69 @@
         </mxCell>
         <mxCell id="WtYT0GvxMjZV-U3iEDgn-44" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" value="返程" vertex="1">
           <mxGeometry height="850" width="20" x="475" y="115" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FI_HVnUzMKXRqbHOhIN5" name="第 6 页">
+    <mxGraphModel dx="1406" dy="786" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LWInfgHTRDQaGCPzKft9-3" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="刚性攻丝：初始点-R点" vertex="1">
+          <mxGeometry height="50" width="160" x="140" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-6" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-8" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-7" value="断电/急停/复位停止">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="刚性攻丝：R-底-R" vertex="1">
+          <mxGeometry height="50" width="120" x="400" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="刚性攻丝：R点-初始点" vertex="1">
+          <mxGeometry height="50" width="160" x="610" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-11" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-9" value="急停/复位停止">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-13" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-12" value="断电">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="580" y="365" />
+              <mxPoint x="580" y="365" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="记录检查点(攻丝状态)到内存&lt;div&gt;（初始点、R点、螺距F、转速S、切入转向、攻丝轴/主轴号）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="200" x="360" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-9" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="信号TRVE：ON" vertex="1">
+          <mxGeometry height="50" width="200" x="360" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-12" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="记录攻丝状态到文件" vertex="1">
+          <mxGeometry height="50" width="140" x="640" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-19" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-18" value="绝对位置检测系统有效&lt;div&gt;and&lt;/div&gt;&lt;div&gt;攻丝状态文件记录：当前正在攻丝作业R-底-R&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="启动" vertex="1">
+          <mxGeometry height="50" width="140" x="350" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-17" edge="1" parent="1" source="LWInfgHTRDQaGCPzKft9-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="LWInfgHTRDQaGCPzKft9-14" value="上电">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-15" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="停电" vertex="1">
+          <mxGeometry height="50" width="140" x="350" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="LWInfgHTRDQaGCPzKft9-18" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="信号TRVE：ON" vertex="1">
+          <mxGeometry height="50" width="140" x="350" y="800" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
