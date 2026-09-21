@@ -1,9 +1,114 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="alXgsvh0v_tu-505McMU">
-    <mxGraphModel>
+    <mxGraphModel dx="1406" dy="1955" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-29" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fillColor=#F9FAFF;strokeColor=#0e8088;" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;span style=&quot;&quot;&gt;可攻丝回退&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;（TRVE信号）&lt;/span&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="500" width="630" x="125" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-27" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-14" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-40" value="TRVEC上升沿">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="603" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7E8FF;" value="" vertex="1">
+          <mxGeometry height="150" width="510" x="190" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-7" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-1" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-4" value="#1234 bit3=1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="270" />
+              <mxPoint x="600" y="270" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="伺服轴互锁" vertex="1">
+          <mxGeometry height="50" width="120" x="230" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-3" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-2" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-1" value="#1234 bit3=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-5" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-2" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-4" value="#1234 bit3=1">
+          <mxGeometry relative="1" x="-0.0036" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="430" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-6" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-4" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-1" value="#1234 bit3=0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="不锁轴状态" vertex="1">
+          <mxGeometry height="50" width="120" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-13" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="KrcQ6SuqUGQe8-NaGIav-14" value="TRV&lt;div&gt;或&lt;/div&gt;&lt;div&gt;急停&lt;/div&gt;&lt;div&gt;或&lt;/div&gt;&lt;div&gt;复位&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.001" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="448.5749292571254" y="425.1449575542754" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-18" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-40" value="回退到初始点">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#F8FFCC;" value="攻丝回退中" vertex="1">
+          <mxGeometry height="60" width="310" x="285" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-12" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="KrcQ6SuqUGQe8-NaGIav-8" value="TRV上升沿&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;（无急停、无自动任务）&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0021" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="431.4250707428746" y="425.14495755427515" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-19" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-40" value="攻丝轴移动">
+          <mxGeometry relative="1" x="0.0018" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-23" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-20" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FFF7;" value="初始点-R点(含)" vertex="1">
+          <mxGeometry height="60" width="120" x="150" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-24" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-21" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-25" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-21" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-29" value="急停/断电/复位reset">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FFF7;" value="R(不含)-孔底-R(不含)" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-37" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-22" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FFF7;" value="R点(含)-初始点" vertex="1">
+          <mxGeometry height="60" width="120" x="600" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-31" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="780" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="正常完成" vertex="1">
+          <mxGeometry height="30" width="60" x="760" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-35" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-33" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-33" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="20" width="20" x="50" y="-80" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="启动攻丝循环" vertex="1">
+          <mxGeometry height="30" width="80" x="20" y="-110" as="geometry" />
+        </mxCell>
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-40" parent="1" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;fillColor=#9AC7BF;" value="普通状态&lt;div&gt;（无TRVE状态）&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="380" y="590" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
