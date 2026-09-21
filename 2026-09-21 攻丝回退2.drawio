@@ -43,8 +43,8 @@
         <mxCell id="KrcQ6SuqUGQe8-NaGIav-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="不锁轴状态" vertex="1">
           <mxGeometry height="50" width="120" x="540" y="200" as="geometry" />
         </mxCell>
-        <mxCell id="KrcQ6SuqUGQe8-NaGIav-13" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="KrcQ6SuqUGQe8-NaGIav-14" value="TRV&lt;div&gt;或&lt;/div&gt;&lt;div&gt;急停&lt;/div&gt;&lt;div&gt;或&lt;/div&gt;&lt;div&gt;复位&lt;/div&gt;">
-          <mxGeometry relative="1" x="-0.001" as="geometry">
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-13" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-8" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" target="KrcQ6SuqUGQe8-NaGIav-14" value="1、TRV&lt;div&gt;或&lt;/div&gt;&lt;div&gt;2、急停&lt;/div&gt;&lt;div&gt;或&lt;/div&gt;&lt;div&gt;3、复位&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0045" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="448.5749292571254" y="425.1449575542754" as="targetPoint" />
           </mxGeometry>
@@ -57,8 +57,8 @@
         <mxCell id="KrcQ6SuqUGQe8-NaGIav-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=middle;fillColor=#F8FFCC;" value="攻丝回退中" vertex="1">
           <mxGeometry height="60" width="310" x="285" y="420" as="geometry" />
         </mxCell>
-        <mxCell id="KrcQ6SuqUGQe8-NaGIav-12" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="KrcQ6SuqUGQe8-NaGIav-8" value="TRV上升沿&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;（无急停、无自动任务）&lt;/div&gt;">
-          <mxGeometry relative="1" x="-0.0021" as="geometry">
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-12" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-14" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;entryX=0.25;entryY=0;entryDx=0;entryDy=0;exitX=0.25;exitY=1;exitDx=0;exitDy=0;" target="KrcQ6SuqUGQe8-NaGIav-8" value="1、TRV上升沿&lt;div&gt;&amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;2、无急停、无自动任务&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.1207" y="3" as="geometry">
             <mxPoint as="offset" />
             <mxPoint x="431.4250707428746" y="425.14495755427515" as="sourcePoint" />
           </mxGeometry>
@@ -82,8 +82,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KrcQ6SuqUGQe8-NaGIav-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FFF7;" value="R(不含)-孔底-R(不含)" vertex="1">
-          <mxGeometry height="60" width="120" x="380" y="-100" as="geometry" />
+        <mxCell id="KrcQ6SuqUGQe8-NaGIav-21" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F7FFF7;" value="R(不含) - 孔底 - R(不含)" vertex="1">
+          <mxGeometry height="60" width="180" x="350" y="-100" as="geometry" />
         </mxCell>
         <mxCell id="KrcQ6SuqUGQe8-NaGIav-37" edge="1" parent="1" source="KrcQ6SuqUGQe8-NaGIav-22" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#788AA3;fontColor=#46495D;fillColor=#B2C9AB;" target="KrcQ6SuqUGQe8-NaGIav-31">
           <mxGeometry relative="1" as="geometry" />
